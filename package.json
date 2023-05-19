@@ -1,0 +1,39 @@
+{
+  "name": "explore-reflect-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -w -c rollup.config.ts --configPlugin typescript",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-proposal-decorators": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/plugin-transform-typeof-symbol": "^7.18.9",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "jest": "^29.5.0",
+    "rollup": "^3.22.0",
+    "standard-version": "^9.5.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.5",
+    "reflect-metadata": "^0.1.13"
+  }
+}
